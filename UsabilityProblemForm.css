@@ -1,0 +1,79 @@
+/* Container for the usability problem form */
+.UsabilityProblemFormContainer {
+    position: absolute; /* Mutlak konumlandırma */
+    top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+    left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+    transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+    width: 600px; /* Genişlik */
+    margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+    padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+    border: 5px solid #ccc; /* Kenarlık */
+    border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+    background-color: #f9f9f9; /* Arkaplan rengi */
+  }
+  
+  /* Form header */
+  .UsabilityProblemFormHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .UsabilityProblemFormHeader h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Form labels */
+  .UsabilityProblemFormLabel {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Form input fields */
+  .UsabilityProblemFormField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* File input */
+  .UsabilityProblemFormFileInput {
+    margin-top: 8px;
+  }
+  
+  /* Form buttons */
+  .UsabilityProblemFormButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UsabilityProblemFormButton:hover {
+    margin-top: 10px;
+    background-color: #45a049;
+  }
+  
+  /* Cancel button */
+  .UsabilityProblemFormCancelButton {
+    margin-top: 10px;
+    background-color: #ccc;
+  }
+  
+  /* Success message */
+  .UsabilityProblemFormSuccessMessage {
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+  }
+  

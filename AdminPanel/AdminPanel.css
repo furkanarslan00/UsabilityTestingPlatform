@@ -1,0 +1,43 @@
+.admin-panel {
+  text-align: center;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+}
+
+.admin-panel h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Butonları ve metni dikeyde ortalar */
+}
+
+.admin-buttons button {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.admin-buttons button:focus {
+  outline: none;
+}

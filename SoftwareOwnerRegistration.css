@@ -1,0 +1,63 @@
+/* Yazılım sahibi kayıt formunu saran ana konteynerin stilini belirler */
+.SoftwareOwnerRegistration {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  width: 700px; /* Genişlik */
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+}
+
+/* Kayıt formunu stilini belirler */
+.SoftwareOwnerRegistration form {
+  display: flex; /* Flex konteyneri */
+  flex-direction: column; /* Düzeni sütun olarak ayarlar */
+}
+
+/* Etiketlerin stilini belirler */
+.SoftwareOwnerRegistration label {
+  margin-bottom: 8px; /* Alt boşluk */
+  font-weight: bold; /* Kalın metin */
+}
+
+/* Giriş alanlarının, seçim alanlarının ve metin alanlarının stilini belirler */
+.SoftwareOwnerRegistration input,
+.SoftwareOwnerRegistration select,
+.SoftwareOwnerRegistration textarea {
+  margin-bottom: 16px; /* Alt boşluk */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border-radius: 5px; /* Kenar yarıçapı */
+  border: 1px solid #ccc; /* Kenarlık */
+  font-size: 16px; /* Yazı tipi boyutu */
+  transition: border-color 0.3s ease; /* Geçiş efekti */
+  width: 95%; /* Genişlik */
+}
+
+/* Odaklandığında giriş alanlarının, seçim alanlarının ve metin alanlarının stilini belirler */
+.SoftwareOwnerRegistration input:focus,
+.SoftwareOwnerRegistration select:focus,
+.SoftwareOwnerRegistration textarea:focus {
+  outline: none; /* Odak çerçevesi yok */
+  border-color: #007bff; /* Kenarlık rengi */
+}
+
+/* Gönderme düğmesinin stilini belirler */
+.SoftwareOwnerRegistration button {
+  padding: 12px 24px; /* Dolgu (üst-alt, sağ-sol) */
+  background-color: #007bff; /* Arka plan rengi */
+  color: #fff; /* Metin rengi */
+  border: none; /* Kenarlık yok */
+  border-radius: 5px; /* Kenar yarıçapı */
+  cursor: pointer; /* İmleç türü */
+  font-size: 16px; /* Yazı tipi boyutu */
+  transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+/* Gönderme düğmesinin üzerine gelindiğindeki durumun stilini belirler */
+.SoftwareOwnerRegistration button:hover {
+  background-color: #0056b3; /* Arka plan rengi */
+}

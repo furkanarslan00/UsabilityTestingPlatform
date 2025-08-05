@@ -1,0 +1,45 @@
+/* Navbar'ın stilini belirler */
+.navbar {
+  position: fixed; /* Sabit konumlandırma */
+  top: 0; /* Üst kenara yapıştır */
+  left: 0; /* Sol kenara yapıştır */
+  width: 100%; /* Genişlik */
+  background-color: #333333; /* Arkaplan rengi */
+  color: #fff; /* Metin rengi */
+  z-index: 1000; /* Üst üste binme düzeni */
+}
+
+/* Navbar içindeki bağlantıları stilini belirler */
+.navbar .nav-links {
+  float: right; /* Sağa yasla */
+  margin-right: 10px; /* Sağ kenar boşluğu */
+}
+
+/* Navbar içindeki bağlantıları stilini belirler */
+.navbar .nav-links li {
+  display: inline; /* Blok olarak gösterme */
+  margin-right: 10px; /* Sağ boşluk */
+}
+
+/* Navbar içindeki son bağlantının sağ boşluğunu sıfırlar */
+.navbar .nav-links li:last-child {
+  margin-right: 0; /* Sağ boşluk sıfır */
+}
+
+/* Navbar içindeki bağlantıların stilini belirler */
+.navbar .nav-links li a {
+  color: white; /* Metin rengi */
+  text-decoration: none; /* Metin altı çizgisi yok */
+  padding: 15px 100px; /* Dolgular (üst ve alt, sağ ve sol) */
+}
+
+/* Navbar içindeki bağlantıların üzerine gelindiğindeki durumun stilini belirler */
+.navbar .nav-links li a:hover {
+  background-color: #ddd; /* Arkaplan rengi */
+  color: black; /* Metin rengi */
+}
+
+/* Aktif olan bağlantının stilini belirler */
+.navbar .active {
+  background-color: #4CAF50; /* Arkaplan rengi */
+}

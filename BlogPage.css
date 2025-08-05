@@ -1,0 +1,84 @@
+/* Blog içeriğini saran ana konteynerin stilini belirler */
+.blog-container {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  width: 900px; /* Genişlik */
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+}
+
+/* Blog sayfa başlığının stilini belirler */
+.blog-container .blog-page-title {
+  font-size: 36px; /* Yazı tipi boyutu */
+  text-align: center; /* Metni ortalar */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Blog kategorilerinin stilini belirler */
+.blog-container .blog-categories {
+  text-align: center; /* Metni ortalar */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Blog kategori düğmelerinin stilini belirler */
+.blog-container .blog-category-button {
+  padding: 10px 20px; /* Dolgu (üst-alt, sağ-sol) */
+  margin: 5px; /* Kenar boşluğu */
+  border: none; /* Kenarlık yok */
+  background-color: #4CAF50; /* Arka plan rengi */
+  color: white; /* Metin rengi */
+  cursor: pointer; /* İmleç türü */
+}
+
+/* Blog kategori düğmelerinin üzerine gelindiğinde ve aktif olduğunda stilini belirler */
+.blog-container .blog-category-button:hover,
+.blog-container .blog-category-button.active {
+  background-color: #45a049; /* Arka plan rengi */
+}
+
+/* Blog kategori içeriğinin stilini belirler */
+.blog-container .blog-category-content {
+  margin-top: 20px; /* Üst boşluk */
+}
+
+/* Blog içerik öğelerini saran konteynerin stilini belirler */
+.blog-container .blog-item-container {
+  display: flex; /* Flex konteyneri */
+  flex-wrap: wrap; /* Yatayda sarma */
+  justify-content: center; /* İçeriği ortalar */
+  flex-direction: row; /* Düzeni yatay olarak ayarlar */
+}
+
+/* Blog içerik öğesinin stilini belirler */
+.blog-container .blog-item {
+  width: calc(50% - 20px); /* Genişlik */
+  border: 2px solid #ccc; /* Kenarlık */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  margin: 10px; /* Kenar boşluğu */
+  box-sizing: border-box; /* Kutu modelini kenar boyutlarına dahil eder */
+}
+
+/* Blog içerik başlığının stilini belirler */
+.blog-container .blog-item-title {
+  font-size: 20px; /* Yazı tipi boyutu */
+  font-weight: bold; /* Kalın metin */
+  margin-bottom: 10px; /* Alt boşluk */
+}
+
+/* Blog içerik açıklamasının stilini belirler */
+.blog-container .blog-item-description {
+  font-size: 16px; /* Yazı tipi boyutu */
+  color: #555; /* Metin rengi */
+}
+
+/* Blog kategori başlığının stilini belirler */
+.blog-container .blog-category-title {
+  font-size: 20px; /* Yazı tipi boyutu */
+  font-weight: bold; /* Kalın metin */
+  margin-bottom: 10px; /* Alt boşluk */
+}

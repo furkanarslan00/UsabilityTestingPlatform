@@ -1,0 +1,132 @@
+
+.register-container {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  width: 450px; /* Genişlik */
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+}
+
+/* Bilgi kutusunun stilini belirler */
+.register-container .info-box {
+  text-align: center; /* Metni ortalar */
+}
+
+/* Başarı mesajının stilini belirler */
+.register-container .success-message {
+  color: #218838; /* Metin rengi */
+  background-color: #d4edda; /* Arkaplan rengi */
+  border: 1px solid #c3e6cb; /* Kenarlık */
+  border-radius: 10px; /* Kenar yarıçapı */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  margin-bottom: 10px; /* Alt boşluk */
+}
+
+/* Başlık stilini belirler */
+.register-container h2 {
+  text-align: left; /* Metni ortalar */
+}
+
+/* İmaj konteynerinin stilini belirler */
+.register-container .image-container {
+  text-align: center; /* İmajı ortalar */
+}
+
+/* İmajın stilini belirler */
+.register-container .image-container img {
+  width: 100%; /* Genişlik */
+  height: 350px; /* Otomatik yükseklik */
+}
+
+/* Form elemanlarının gruplarını stilini belirler */
+.register-container .form-group {
+  margin-bottom: 15px; /* Gruplar arasındaki boşluk */
+  display: flex; /* Flex konteyneri */
+  flex-direction: column; /* Yatay yönde dizilim */
+}
+
+/* Etiketlerin stilini belirler */
+.register-container label {
+  display: block; /* Blok olarak gösterir */
+  margin-bottom: 5px; /* Alt boşluk */
+}
+
+/* Giriş alanlarının stilini belirler */
+.register-container input {
+  width: 95%; /* Genişlik */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border: 1px solid #ccc; /* Kenarlık */
+  border-radius: 4px; /* Kenar yarıçapı */
+  margin-bottom: 10px; /* Alt boşluk */
+}
+
+/* Ad ve soyad alanının stilini belirler */
+.register-container .name-surname {
+  display: flex; /* Flex konteyneri */
+  justify-content: space-between; /* Boşluk bırakarak içeriği düzenler */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Ad alanının stilini belirler */
+.register-container .name-field,
+/* Soyad alanının stilini belirler */
+.register-container .surname-field {
+  width: 48%; /* Genişlik */
+  margin-bottom: 0; /* Alt boşluk yok */
+}
+
+/* Gönderme düğmesinin stilini belirler */
+.register-container button {
+  background-color: #28a745; /* Arka plan rengi */
+  color: #fff; /* Metin rengi */
+  border: none; /* Kenarlık yok */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border-radius: 4px; /* Kenar yarıçapı */
+  cursor: pointer; /* İmleç türü */
+  width: 100%; /* Genişlik */
+}
+
+/* Gönderme düğmesinin üzerine gelindiğindeki durumun stilini belirler */
+.register-container button:hover {
+  background-color: #218838; /* Arka plan rengi */
+}
+
+/* Bağlantı konteynerinin stilini belirler */
+.register-container .link-container {
+  text-align: center; /* Metni ortalar */
+  margin-top: 10px; /* Üst boşluk */
+}
+
+/* Bağlantının stilini belirler */
+.register-container .link-container a {
+  text-decoration: none; /* Metin altı çizgisi yok */
+  color: #28a745; /* Metin rengi */
+}
+
+/* Bağlantının üzerine gelindiğindeki durumun stilini belirler */
+.register-container .link-container a:hover {
+  text-decoration: underline; /* Metin altı çizgisi */
+}
+
+/* Ad ve soyad alanı dışındaki diğer form gruplarının alt boşluklarını belirler */
+.register-container .form-group div:not(.name-surname) {
+  margin-bottom: 35px; /* Alt boşluk */
+}
+
+/* Simge düğmesinin stilini belirler */
+.register-container .icon-button {
+  background-color: #fff; /* Arka plan rengi */
+  border: none; /* Kenarlık yok */
+  cursor: pointer; /* İmleç türü */
+  transition: transform 0.3s ease-in-out; /* Geçiş efekti */
+}
+
+/* Simge düğmesinin üzerine gelindiğindeki durumun stilini belirler */
+.register-container .icon-button:hover {
+  transform: scale(1.2); /* Ölçeklendirme efekti */
+}

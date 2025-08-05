@@ -1,0 +1,72 @@
+.homepage-container {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  width: 600px; /* Genişlik */
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-size: cover; /* Resmi kapla */
+  background-position: center; /* Resmi merkezle */
+}
+
+.homepage-container .about-section {
+  margin-bottom: 30px;
+}
+
+.homepage-container .box {
+  background-color: rgba(255, 255, 255, 0.25); 
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box Shadows */
+  transition: transform 0.3s ease; /* Smooth Transition */
+}
+
+.homepage-container .box:hover {
+  transform: translateY(-3px); /* Hover Effects */
+}
+
+.homepage-container .title {
+  font-style: italic;
+  text-align: center;
+  color: rgb(245, 0, 0);
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif; /* Change Font */
+}
+
+.homepage-container .description {
+  
+  font-weight: bold;
+  color: rgb(139, 3, 139);
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500; /* Adjust Font Weight */
+}
+
+/* Additional Enhancements */
+.homepage-container .box-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.homepage-container .box-icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716249600&semt=sph');
+    background-size: cover; /* Resmi kapla */
+    background-position: center; /* Resmi merkezle */
+    height: 100vh; /* Sayfa yüksekliği kadar arka plan görüntülenir */
+    margin: 0; /* Sayfa kenar boşluğu sıfırlandı */
+    padding: 0; /* Sayfa dolgu sıfırlandı */
+}
+
+
+
+

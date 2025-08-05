@@ -1,0 +1,103 @@
+/* Ana giriş formunu saran konteynerin stilini belirler */
+.login-container {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  width: 600px; /* Genişlik */
+  height: 750px;
+  margin: 0 auto ; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+}
+
+/* Başlık stilini belirler */
+.login-container h2 {
+  text-align: center; /* Metni ortalar */
+  font-size: 30px;
+}
+
+/* İmaj konteynerinin stilini belirler */
+.login-container .image-container {
+  text-align: center; /* İmajı ortalar */
+}
+
+/* İmajın stilini belirler */
+.login-container .image-container img {
+  width: 80%; /* Genişlik */
+  height: auto; /* Otomatik yükseklik */
+}
+
+/* Form elemanlarının gruplarını stilini belirler */
+.login-container .form-group {
+  margin-top: 15px;
+  margin-bottom: 15px; /* Gruplar arasındaki boşluk */
+}
+
+/* Etiketlerin stilini belirler */
+.login-container label {
+  display: block; /* Blok olarak gösterir */
+  margin-bottom: 5px; /* Etiket ile altındaki eleman arasındaki boşluk */
+}
+
+/* Giriş alanlarının stilini belirler */
+.login-container input {
+  width: 95%; /* Genişlik */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border-radius: 5px; /* Kenar köşesi yuvarlaklığı */
+  border: 1px solid #ddd; /* Kenarlık */
+}
+
+/* Gönderme düğmesinin stilini belirler */
+.login-container button {
+  font-size: 16px;
+  height: 40px;
+  width: 100%; /* Genişlik */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border-radius: 5px; /* Kenar köşesi yuvarlaklığı */
+  border: none; /* Kenarlık yok */
+  background-color: #4CAF50; /* Arka plan rengi */
+  color: white; /* Metin rengi */
+  cursor: pointer; /* İmleç türü */
+  margin-top: 40px;
+}
+
+/* Gönderme düğmesinin üzerine gelindiğindeki durumun stilini belirler */
+.login-container button:hover {
+  background-color: #45a049; /* Arka plan rengi */
+}
+
+/* Kayıt olma düğmesinin stilini belirler */
+.login-container .register-button {
+  display: block; /* Blok olarak gösterir */
+  margin: 10px auto 0; /* Kenar boşluğu ve otomatik hizalama ile merkezleme */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  border-radius: 5px; /* Kenar köşesi yuvarlaklığı */
+  border: none; /* Kenarlık yok */
+  background-color: #007bff; /* Arka plan rengi */
+  color: white; /* Metin rengi */
+  text-align: center; /* Metni ortalar */
+  text-decoration: none; /* Metin altı çizgisi yok */
+  margin-top: 25px;
+}
+
+/* Kayıt olma düğmesinin üzerine gelindiğindeki durumun stilini belirler */
+.login-container .register-button:hover {
+  background-color: #0056b3; /* Arka plan rengi */
+}
+
+/* Forgot password link stilini belirler */
+.login-container .forgot-password {
+  display: block; /* Blok olarak gösterir */
+  text-align: center; /* Metni ortalar */
+  text-decoration: none; /* Metin altı çizgisi yok */
+  color: #007bff; /* Metin rengi */
+  margin-top: 10px; /* Kenar boşluğu */
+}
+
+/* Forgot password linkinin üzerine gelindiğindeki durumun stilini belirler */
+.login-container .forgot-password:hover {
+  text-decoration: underline; /* Metin altını çizer */
+}

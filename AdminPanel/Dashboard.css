@@ -1,0 +1,33 @@
+.dashboard-container {
+    position: absolute; /* Mutlak konumlandırma */
+    top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+    left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+    transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+    width: 90vw;
+    max-width: 1200px;
+    margin: 80px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.chart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

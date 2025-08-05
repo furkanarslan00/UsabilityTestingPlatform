@@ -1,0 +1,79 @@
+
+.manage-users-container-custom {
+    position: absolute; /* Mutlak konumlandırma */
+    top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+    left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+    transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+    width: 80vw; /* Updated width to 100% of viewport width */
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.manage-users-container-custom h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.users-list-custom {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-item-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.user-item-custom:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-custom {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-custom {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.email-custom {
+    font-size: 14px;
+    color: #666;
+}
+
+.delete-button-custom {
+    width: 100px; /* Fixed width for the delete button */
+    padding: 8px 0; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 14px;
+    text-align: center; /* Center the text */
+    overflow: hidden; /* Hide any overflow */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.delete-button-custom:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}

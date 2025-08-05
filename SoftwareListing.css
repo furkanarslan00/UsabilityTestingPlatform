@@ -1,0 +1,66 @@
+/* Ana konteyner için stil */
+.software-listing-container {
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+  padding: 20px;
+  text-align: center; /* Metni ortalar */
+}
+
+/* Sayfa başlığı için stil */
+.page-title {
+  font-size: 36px; /* Yazı tipi boyutu */
+  font-weight: bold; /* Kalın yazı */
+  margin-bottom: 20px; /* Alt boşluk */
+  color: #333; /* Metin rengi */
+}
+
+/* Liste konteyneri için stil */
+.container-list {
+  position: relative; /* Konumlandırma */
+  top: 0; /* Üst kenarını ekranın üstüne yerleştir */
+  left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+  transform: translateX(-50%); /* Yatayda tam ortalamak için */
+  width: 1200px; /* Genişlik */
+  margin: 0 auto; /* Otomatik hizalama ile merkezleme */
+  padding: 20px; /* İçerik ile kenar arasındaki boşluk */
+  border: 5px solid #ccc; /* Kenarlık */
+  border-radius: 40px; /* Kenar köşesi yuvarlaklığı */
+  background-color: #f9f9f9; /* Arkaplan rengi */
+  display: grid; /* Izgara düzeni */
+  grid-template-columns: repeat(3, 1fr); /* Sütunları tanımla */
+  gap: 20px; /* Öğeler arasındaki boşluk */
+}
+
+/* Yazılım öğesi için stil */
+.software-item {
+  border: 1px solid #ccc; /* Kenarlık */
+  padding: 10px; /* İçerik ile kenar arasındaki boşluk */
+  cursor: pointer; /* İmleç türü */
+  background-color: #4CAF50; /* Arka plan rengi */
+  color: #fff; /* Metin rengi */
+}
+
+/* Yazılım öğesinin üzerine gelindiğindeki durumun stilini belirler */
+.software-item:hover {
+  background-color: #66BB6A; /* Arka plan rengi */
+}
+
+/* Yazılım başlığı için stil */
+.software-title {
+  font-size: 18px; /* Yazı tipi boyutu */
+  margin-bottom: 5px; /* Alt boşluk */
+}
+
+/* Yazılım açıklaması için stil */
+.software-description {
+  font-size: 14px; /* Yazı tipi boyutu */
+  color: #ddd; /* Metin rengi */
+}
+
+/* Derecelendirme için stil */
+.rating {
+  font-size: 16px; /* Yazı tipi boyutu */
+  margin-top: 10px; /* Üst boşluk */
+}

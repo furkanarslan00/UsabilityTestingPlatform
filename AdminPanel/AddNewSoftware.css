@@ -1,0 +1,68 @@
+.add-software-container-custom {
+    position: absolute; /* Mutlak konumlandırma */
+    top: 50%; /* Üst kenarını ekranın yarısına yerleştir */
+    left: 50%; /* Sol kenarını ekranın yarısına yerleştir */
+    transform: translate(-50%, -50%); /* Yatay ve dikeyde tam ortalamak için */
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.add-software-container-custom h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.software-form-custom {
+    display: flex;
+    flex-direction: column;
+}
+
+.software-form-custom label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.software-form-custom input[type="text"],
+.software-form-custom textarea,
+.software-form-custom select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.software-form-custom input[type="text"]:focus,
+.software-form-custom textarea:focus,
+.software-form-custom select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.software-form-custom textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.software-form-custom button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.software-form-custom button:hover {
+    background-color: #0056b3;
+}
