@@ -74,7 +74,6 @@ Admin: Has access to all system data and can manage users and reports
 
 ## Contact
 
-For any questions or feedback, please contact:
 Furkan Arslan
 Email: [furkan0tr0arslan@gmail.com](mailto:furkan0tr0arslan@gmail.com)
 
