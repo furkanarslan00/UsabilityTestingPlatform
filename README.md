@@ -1,4 +1,3 @@
-
 # Usability Evaluation Platform
 
 ## Project Overview
